@@ -1,1 +1,55 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
+html {
+    background-color: #EDDDD4;
+    font-family: 'Manrope', sans-serif;
+}
+
+.two-column-wrapper {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: row;
+    height: 100%
+}
+
+.left-side {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side {
+    width: 50%;
+    text-align: center;
+}
+
+.bio {
+    display: flex;
+    flex-direction: row;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.bio-info {
+    font-size: 24px;
+    width: 247px;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+.go-to-button {
+    font-size: 19px;
+    font-weight: 700;
+    color: #EDDDD4;
+    background: #283D3B;
+    border-radius: 27px;
+    padding: 17px;
+    width: 250px;
+    text-align: center;
+}
