@@ -1,0 +1,10 @@
+<div class="left-side">
+    <p class="name">Sophie Martin</p>
+    <div class="bio">
+      <p class="bio-info" *ngIf="school">A senior at Michigan State University studying Computer Science.</p>
+      <p class="bio-info" *ngIf="!school">A (future) frontend web developer with an interest in design & user experience.</p>
+      <img class="profile" src="assets/profile-picture.jpg" alt="Picture of Sophie" width="140" height="140">
+    </div>
+    <p class="go-to-button" *ngIf="school"><a href="#" (click)="toggleScreen()" routerLink="work">go to work experience -></a></p>
+    <p class="go-to-button" *ngIf="!school"><a href="#" (click)="toggleScreen()" routerLink="">go to academics -></a></p>
+</div>
